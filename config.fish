@@ -29,9 +29,9 @@ function novpn
 end
 
 function web
-	flatpak run io.github.zen_browser.zen
+	flatpak run io.github.zen_browser.zen &
 end
 
 function ter
-	alacritty
+	alacritty &
 end
